@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivitySafari"></activity>
+        <activity android:name=".ListView"></activity>
+        <activity android:name=".ActivitySafari" />
         <activity android:name=".ActivityKempinski" />
         <activity android:name=".MainActivity">
             <intent-filter>

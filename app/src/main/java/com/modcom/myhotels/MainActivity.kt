@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, ActivitySafari::class.java)
             startActivity(i)
         }
+        btnLagos.setOnClickListener {
+            val i = Intent(this, ListView::class.java)
+            startActivity(i)
+        }
     }
 }
